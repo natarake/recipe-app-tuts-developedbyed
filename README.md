@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Recipe App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![RecipeApp](https://i.ibb.co/5cRss23/recipe-app.png)
 
-## Available Scripts
+Recipe app is a simple react application that utilizes spoonacular API based on [YouTube Tutorial](https://www.youtube.com/watch?v=xc4uOzlndAk) of developedbyed.
 
-In the project directory, you can run:
+## What are the features of Google Books App
+
+When you launch the application, you will be taken to the homepage, where the recipes are grouped into their respective categories. If you select a recipe, you will be redirected to the recipe details page where you can view the ingredients and the step-by-step instructions for preparing the dish.
+
+Furthermore, at the top of every page, you will find a category selection feature that enables you to browse various regional cuisines. Additionally, there is a search bar where you can enter a specific query, and if the API detects a match, it will retrieve and display the relevant recipe.
+
+## What went well
+
+During the development of this application, I had the opportunity to explore and implement several new technologies, including styled-components, framer-motion, and splideJS. Using styled-components allowed me to create reusable components with styling that was easy to manage and maintain. The use of framer-motion added a new level of interactivity and animation to the user interface, making the application feel more engaging and dynamic. Additionally, the integration of splideJS enabled the creation of a smooth and responsive carousel for displaying recipe images.
+
+In the tutorial provided by Developedbyed, I also learned how to leverage the power of local storage to save items and reduce the number of API hits required to retrieve data. By implementing local storage, the application was able to load previously viewed recipes more quickly and efficiently, enhancing the overall user experience. Overall, this project provided an excellent opportunity for me to learn and practice new technologies and techniques that I can apply to future development projects.
+
+## What are the challenges encountered
+
+Since the tutorial is straightforward, few challenges was encountered.
+
+## Codebase differences
+
+Very few codebase was initiated which mostly revolves on styling.
+
+## Future improvements
+
+A fairly simple project that served its purpose to make me understand react concepts, there will be no future improvement in this app.
+
+### Liked this repository?
+
+Please don't forget to leave a ⭐🙏🏻!
+
+## Run this app on your local machine
+
+In order to run this application on your local machine, you can run the following commands on the terminal:
+
+### `npm install`
+
+Installs the required package dependencies
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the client in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

@@ -12,13 +12,11 @@ const Cuisines = () => {
       `https://api.spoonacular.com/recipes/complexSearch?apiKey=${process.env.REACT_APP_API_KEY}&number=9&cuisine=${name}`
     );
     const data = await api.json();
-    // console.log(data);
     setCuisines(data.results);
   };
 
   useEffect(() => {
     getCuisine(params.type);
-    // console.log(params.type);
   }, [params.type]);
 
   return (
